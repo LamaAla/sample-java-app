@@ -6,11 +6,11 @@ pipeline {
         AWS_ACCESS_KEY_ID     = credentials('LamaAlawwad-aws-secret-key-id')
         AWS_SECRET_ACCESS_KEY = credentials('LamaAlawwad-aws-secret-access-key')
 
-        AWS_S3_BUCKET = "artefact-bucket-repo"
+        AWS_S3_BUCKET = "lamaalawwad-belt2-artifacts-12345"
         ARTIFACT_NAME = "hello-world.war"
-        AWS_EB_APP_NAME = "java-webapp"
+        AWS_EB_APP_NAME = "LamaAlawwad-java-belt2"
         AWS_EB_APP_VERSION = "${BUILD_ID}"
-        AWS_EB_ENVIRONMENT = "Javawebapp-env"
+        AWS_EB_ENVIRONMENT = "Lamaalawwadjavabelt2-env"
 
         SONAR_IP = "54.226.50.200"
         SONAR_TOKEN = "sqp_aa3cba40e3342d9cff9044e498766a66cf8cc0cc"
