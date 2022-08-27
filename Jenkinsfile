@@ -3,7 +3,7 @@ pipeline {
 
     environment {
 
-        AWS_ACCESS_KEY_ID     = credentials('LamaAlawwad-aws-secret-key-id'')
+        AWS_ACCESS_KEY_ID     = credentials('LamaAlawwad-aws-secret-key-id')
         AWS_SECRET_ACCESS_KEY = credentials('LamaAlawwad-aws-secret-access-key')
 
         AWS_S3_BUCKET = "artefact-bucket-repo"
